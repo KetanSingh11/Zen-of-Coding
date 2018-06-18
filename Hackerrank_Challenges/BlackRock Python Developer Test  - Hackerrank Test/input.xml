@@ -1,0 +1,32 @@
+6 1
+<tag1 value="hello">
+	<tag2 name="ketan" value="hehe">
+		<tag3 atr1="a" atr2="bb" atr3="ccc">
+		</tag3>
+	</tag2>
+</tag1>
+tag1.tag2.tag3~atr2
+
+
+4 3
+<tag1 value = "HelloWorld">
+<tag2 name = "Name1">
+</tag2>
+</tag1>
+tag1.tag2~name
+tag1~name
+tag1~value
+
+
+6 5
+<tag1 value="hello">
+	<tag2 name="ketan" value="hehe">
+		<tag3 atr1="a" atr2="bb" atr3="ccc">
+		</tag3>
+	</tag2>
+</tag1>
+tag1.tag2.tag3~atr2
+tag1~abc
+tag1.tag2~name
+tag1.tag2.tag3~atr1
+tag1.tag2.tag3~atr3

@@ -1,0 +1,1 @@
+window.config = {"whiteLabel": false, "mixpanelToken": "bb6edcc349c7b05a5345b3a98e07680b"};

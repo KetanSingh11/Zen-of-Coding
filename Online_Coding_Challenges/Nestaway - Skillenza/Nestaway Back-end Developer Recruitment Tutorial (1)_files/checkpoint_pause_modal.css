@@ -1,0 +1,201 @@
+.checkpoint-modal-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #122e46;
+  margin-bottom: 5px;
+}
+.subtext {
+  margin-top: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(18, 46, 70, 0.4);
+}
+
+.checkpoint-modal-subtext {
+  opacity: 0.4;
+  font-size: 12px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #122e46;
+  text-transform: uppercase;
+}
+
+.checkpoint-modal-header {
+  background-color: #fff;
+}
+
+.checkpoint-modal-timer {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: #66be0f;
+}
+
+.checkpoint-modal-timeremaining-container {
+  margin-bottom: 25px;
+}
+
+.checkpoint-detailed-stats {
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+}
+
+.checkpoint-detailed-stats .attempted {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3088f4;
+}
+
+.checkpoint-detailed-stats .unattempted {
+  font-size: 14px;
+  font-weight: 600;
+  color: #122e46;
+  margin-top: 10px;
+}
+
+.checkpoint-detailed-stats .skipped {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #ffa600;
+}
+
+.checkpoint-modal-buttons-container {
+  background-color: #f4f4f6;
+  padding: 20px;
+}
+
+.save-and-return-btn-container {
+  margin-bottom: 10px;
+}
+
+.btn-save-and-return {
+  width: 100%;
+  height: 80px;
+  border-radius: 4px;
+  background-color: #3088f4;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.submit-and-finish-btn-container {
+  width: 100%;
+  height: 80px;
+  border-radius: 4px;
+  background-color: #122e46;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-save-and-return-text {
+  margin-top: 12px;
+}
+
+.btn-save-and-finish-text {
+  margin-top: 12px;
+}
+
+.btn-save-and-return .header-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btn-save-and-return .sub-text {
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.btn-save-and-finish .header-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btn-save-and-finish .sub-text {
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.save-and-return-icon-container {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 28px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.save-and-finish-icon-container {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 28px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.1);
+}
+.challenge-paused-icon-container{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: #f3f4f6;
+}
+.save-and-return-icon{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 9px;
+  right: 9px;
+}
+
+.save-and-finish-icon{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 9px;
+  right: 9px;
+}
+
+.challenge-paused-icon{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 15px;
+  opacity: 0.5;
+}
+
+.btn-save-and-return-text{
+  text-align: left !important;
+}
+
+.btn-save-and-finish-text{
+  text-align: left !important;
+}
+
+.modal-chev-white{
+  margin-top: 35px;
+}
+
+.modal-chev-white-img{
+  width: 8px;
+  margin-right: 20px;
+}
+@media (max-width: 750px) {
+  .btn-save-and-return{
+    height: 95px;
+  }
+  .btn-save-and-finish{
+    height: 95px;
+  }
+  .submit-and-finish-btn-container{
+    height: 95px;
+  }
+}

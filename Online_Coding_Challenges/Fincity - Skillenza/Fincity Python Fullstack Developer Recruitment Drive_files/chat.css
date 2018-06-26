@@ -1,0 +1,246 @@
+.chat-container {
+  bottom: 0;
+  right: 40;
+  width: 270px;
+  position: fixed;
+  box-shadow: 0 2px 4px 0 rgba(48, 136, 244, 0.08), 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.member-chatbox-container {
+  position: fixed;
+  bottom: 0;
+  right: 310;
+}
+
+.chat-nousers {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(18, 46, 70, 0.45);
+}
+
+.chat-box-header {
+  height: 40px;
+  background-color: #fff;
+  border: solid 1px rgb(236, 239, 241);
+  cursor: pointer;
+}
+
+.chatbox-content {
+  overflow: auto;
+  height: 284px !important;
+  background-color: #fff;
+  border-left: solid 1px rgb(236, 239, 241);
+  border-right: solid 1px rgb(236, 239, 241);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.chatbox-content-hidden {
+  height: 0px;
+}
+
+.users-container {
+  padding: 15px;
+}
+
+.chat-box-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+
+.chat-green-circle {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: rgb(102, 190, 16);
+}
+
+.chat-content {
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-box-down-arrow {
+  width: 20px;
+  height: 20px;
+  opacity: 0.45;
+  margin-right: 15px;
+}
+
+.chat-box-down-arrow-trasfrom {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.chat-box-left-items {
+  display: flex;
+}
+
+.chat-box-right-items {
+  display: block;
+}
+
+.chat-user-item {
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.chat-user-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.chat-user-info {
+  display: flex;
+}
+
+.chat-user_name {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(18, 46, 70);
+}
+
+.chat-isonline {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: block;
+  background-color: rgb(102, 190, 16);
+}
+.chat-signal{
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.chat-signal.green{
+  background-color: rgb(102, 190, 16) !important;
+}
+.chat-signal.grey{
+  background-color: rgba(18, 46, 70, 0.3);
+}
+.chat-user-link{
+  color: rgb(18, 46, 70);
+}
+.chat-user-link:hover{
+  text-decoration: underline;
+}
+.chat-user_headline {
+  font-size: 12px;
+  margin-top: -3px;
+  font-weight: 700;
+  color: rgba(18, 46, 70, 0.45);
+}
+
+.member-chatbox-label {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+
+.chatboxes {
+  position: relative;
+  float: right;
+  display: inline-block;
+  bottom: 0px;
+  right: 0px;
+}
+
+.individual-chatbox {
+  width: 270px;
+}
+
+.chatbox-body {
+  overflow: auto;
+  height: 250px;
+  background-color: #fff;
+  border-left: solid 1px rgb(236, 239, 241);
+  border-right: solid 1px rgb(236, 239, 241);
+}
+
+.chatbox-message-container {
+  padding: 15px;
+}
+
+.chatbubble-left {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: fit-content;
+  text-align: left;
+  font-size: 12px;
+  background-color: rgb(243, 244, 246);
+  color: rgb(18, 46, 70);
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.chat-item-left {
+  width: 100%;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.chat-item-right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatbubble-right {
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(48, 136, 244);
+  font-size: 12px;
+  text-align: right;
+  font-weight: 500;
+  margin-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  clear: both;
+  width: fit-content;
+  float: right;
+}
+
+/*  overriders */
+
+.input-group {
+  display: block;
+}
+
+.form-control:focus {
+  border: none;
+}
+
+.messge-time {
+  opacity: 0.5;
+  margin-top: 3px;
+  display: block;
+  font-size: 11px;
+}

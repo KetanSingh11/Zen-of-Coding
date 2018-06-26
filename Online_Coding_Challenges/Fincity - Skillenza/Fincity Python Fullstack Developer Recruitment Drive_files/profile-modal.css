@@ -1,0 +1,169 @@
+.edit-modal-header {
+  height: 51px;
+  background-color: #f3f4f6;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 15px 20px 15px 20px;
+}
+
+.edit-modal-header-text {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+
+.modal-new-body {
+  background-color: #fff;
+  padding: 25px 20px 25px 20px;
+}
+
+.modal-set-height{
+  height: 75%;
+  overflow: scroll;
+}
+
+.edit-modal-flex-item {
+  display: flex;
+}
+
+.edit-modal-block-item {
+  display: block;
+  padding: 2px;
+}
+
+.edit-modal-block-item.full-width {
+  width: 100%;
+}
+
+.edit-modal-block-item.half-width {
+  width: 50%;
+}
+
+.edit-modal-form-label {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(18, 46, 70, 0.45);
+}
+
+.edit-modal-form-input input {
+  border-radius: 3px;
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(18, 46, 70);
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(18, 46, 70, 0.15);
+}
+
+.edit-modal-form-input textarea {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(18, 46, 70, 0.15);
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(18, 46, 70);
+}
+
+.edit-modal-form-input input:disabled {
+  border-radius: 3px;
+  background-color: rgba(18, 46, 70, 0.05);
+  border: solid 1px rgba(18, 46, 70, 0.15);
+}
+
+.edit-modal-form-label-secondary {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+  text-align: right;
+  color: rgba(18, 46, 70, 0.45);
+}
+
+.edit-modal-footer {
+  height: 70px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #f3f4f6;
+  padding: 15px;
+  text-align: right;
+}
+.follower-profile-img{
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.follower-profile-name{
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+.follower-profile{
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid rgba(18, 46, 70, 0.1);
+}
+.follower-profile-headline{
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(0, 42, 76, 0.5)
+}
+.btn-follow-new {
+  height: 30px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(48, 136, 244, 0.3);
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(48, 136, 244);
+}
+
+.btn-follow-new:hover, .btn-follow-new:active, .btn-follow-new:focus {
+  color: #fff;
+  background-color: #3088f4;
+}
+
+.btn-following-new {
+  height: 30px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #3088f4;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-unfollow-new:hover {
+  height: 30px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #ff5252;
+  /* background-color : #122e46; */
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+.material-icons.follow {
+  font-size: 11px;
+  margin-right: 5px;
+}
+.follower-profile-info{
+  width: 80%;
+}
+.follower-count{
+  font-size: 16px;
+  margin-left: 15px;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(18, 46, 70, 0.3);
+}

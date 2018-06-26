@@ -1,0 +1,128 @@
+.navbar-dark {
+  background-color: #122e46 !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar_stage_label_container {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.navbar_stage_text {
+  opacity: 0.4;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.navbar_state_label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+}
+
+.navbar_dark_save_button {
+  width: 159px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.05);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.navbar_dark_right a {
+  padding-right: 25px !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.navbar_dark_timer_container {
+  /* margin-right: 248px; */
+  width: 218px;
+  padding: 14px;
+  text-align: center;
+  border-bottom: 3px solid #3088f4;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar_dark_timer {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.mobile-nav-instructions{
+  opacity: 0.4;
+}
+.mobile-nav-hourglass{
+  width: 18px;
+  height: 18px;
+  opacity: 0.4;
+  margin-right: 15px;
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+@media (max-width: 750px) {
+  .mobile-nav-timer-container {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    background-color: #243e54;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  }
+  .nav-container{
+    display: flex;
+  }
+  .mobile-nav-instructions{
+    opacity: 0.4;
+
+  }
+  .navbar_dark_save_button{
+    /* opacity: 0.15; */
+    background-color: transparent;
+    margin-right: 10px;
+    width: 110px;
+    border-radius: 4px;
+    border: solid 2px rgba(255,255,255,0.15);
+  }
+  .navbar_dark_timer-mobile {
+    margin: 0 auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+  }
+  .navbar-mobile-timer {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .navbar-header {
+    float: none;
+    width: 50%;
+ }
+ .mobile-nav-right{
+   display: flex;
+   text-align: right;
+   width: 50%;
+ }
+ .mobile-nav-hourglass{
+   width: 15px;
+   height: 15px;
+   opacity: 0.4;
+ }
+}

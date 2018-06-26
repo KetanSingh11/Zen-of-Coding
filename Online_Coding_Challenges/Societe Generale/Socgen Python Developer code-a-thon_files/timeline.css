@@ -1,0 +1,425 @@
+#page-wrapper {
+  padding: 0px;
+}
+
+.timeline-activity-img-container {
+  height: 150px;
+  z-index: 1;
+}
+
+.breadcrumb-link a{
+  color: #fff;
+}
+
+.timeline-activity-filter {
+  height: 150px;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.timeline-activity-info-container {
+  height: 150px;
+  position: relative;
+  z-index: 3;
+}
+
+.breadcrumbs {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.timeline-host-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline-host-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 2px;
+}
+
+.timeline-host-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.timeline-left-section {
+  display: flex;
+}
+
+.timeline-challenge-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+.time-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.timeline-timer {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+}
+
+.timeline-time {
+  margin-top: 20px;
+}
+
+.timeline-all-checkpoints {
+  display: flex;
+  margin-top: 30px;
+}
+
+.checkpoint-card {
+  width: 760px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e7ebed;
+}
+
+.checkpoint-card:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.checkpoint-card-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.checkpoint-type {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(18, 46, 70, 0.3);
+}
+
+.checkpoint-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+
+.checkpoint-card-date-label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  color: rgba(0, 42, 76, 0.3);
+}
+
+.checkpoint-card-timer {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: right;
+  color: rgb(102, 190, 16);
+}
+
+.checkpoint-card-middle {
+  padding: 20px;
+  border-top: 1px dotted rgb(229, 232, 235);
+}
+
+.checkpoint-physical-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkpoint-middle-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(0, 42, 76, 0.4);
+}
+
+.checkpoint-value {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(18, 46, 70);
+}
+
+.checkpoint-location {
+  text-align: left;
+}
+
+.checkpoint-participation {
+  text-align: center;
+}
+
+.checkpoint-duration {
+  text-align: right;
+}
+
+.checkpoint-dates {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.checkpoint-end-date {
+  text-align: right;
+}
+
+.checkpoint-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: rgba(18, 46, 70, 0.04);
+  padding: 15px 20px 15px 20px;
+}
+
+.btn.btn-checkpoint-active {
+  height: 40px;
+  border-radius: 2px;
+  background-color: rgb(113, 198, 13);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.btn.btn-inactive {
+  height: 40px;
+  border-radius: 2px;
+  border: solid 1px rgba(18, 46, 70, 0.2);
+  font-weight: 700;
+  color: rgba(18, 46, 70, 0.4);
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+}
+
+.checkpoints-wrapper {
+  display: block;
+}
+
+.checkpoint-data {
+  display: flex;
+}
+
+.checkpoint-extra {
+  margin-left: 40px;
+}
+
+.checkpoint-extra {
+  width: 270px;
+}
+
+.progress-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(0, 42, 76);
+}
+
+.activity-progressbar-background {
+  height: 6px;
+  border-radius: 3px;
+  width: 100%;
+  background-color: rgba(18, 46, 70, 0.1);
+}
+
+.progress-status {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.progress-status span.progress-status-text {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(0, 42, 76, 0.5);
+}
+
+.progress-status span.big-element {
+  line-height: 1;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: right;
+  color: rgb(102, 190, 16);
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+.activity-progressbar-foreground {
+  background-color: rgb(102, 190, 16);
+  height: 6px;
+  border-radius: 3px;
+  width: 40%;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.checkpoint-status-section {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  background-color: rgba(18, 46, 70, 0.1);
+}
+
+.all-checkpoints-wrapper {
+  margin-bottom: 25px;
+}
+
+.checkpoint-qualification-text {
+  font-weight: 700;
+  color: rgba(18, 46, 70, 0.4);
+  font-size: 14px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.material-icons.checkpoint-dependancy-icon {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.checkpoint-state-label {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.checkpoint-state-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.completed-card-top {
+  background-color: rgb(248, 252, 243);
+  border: solid 1px rgb(231, 235, 237);
+}
+
+.completed-card-bottom {
+  background-color: rgb(113, 198, 13);
+}
+
+.completed-card-bottom .btn-inactive {
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border: solid 1px rgb(255, 255, 255, 0.3);
+}
+
+.qualified-card-top {
+  background-color: rgba(48, 136, 244, 0.05);
+  border: solid 1px rgb(231, 235, 237);
+}
+
+.qualified-card-bottom {
+  background-color: rgb(48, 136, 244);
+}
+
+.timer-blue {
+  color: rgb(48, 136, 244);
+}
+
+.upcoming-card-top {
+  background-color: rgba(18, 46, 70, 0.05);
+}
+
+.expired-bottom-card {
+  background-color: rgb(255, 246, 246);
+}
+
+.checkpoint-closed-label {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(255, 93, 92);
+}
+
+.checkpoint-closed-value {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(18, 46, 70, 0.4);
+}
+
+.query-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+
+.query-text {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(18, 46, 70, 0.5);
+}
+.query-regarding-activity{
+  display: flex;
+}
+.discussion-button {
+  border-radius: 2px;
+  margin-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  border: solid 1px rgba(18, 46, 70, 0.1);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(127, 148, 165);
+}
+.query-icon{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 50%;
+  /* background-color: rgba(18, 46, 70, 0.05); */
+}
+.material-icons.query{
+  font-size: 14px;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+.query-content{
+  margin-left: 15px;
+}

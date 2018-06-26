@@ -1,0 +1,232 @@
+#page-wrapper {
+  padding: 0px;
+}
+
+.people-tab-container {
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(18, 46, 70, 0.1);
+  margin-top: 48px;
+}
+
+.small-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.people-tabs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.people-tab-links {
+  margin-top: 6px;
+}
+
+.people-tab-links a {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: rgb(18, 46, 70, 0.45);
+}
+
+.people-tab-links .middle-link {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.form-control.activity-search {
+  border-radius: 3px;
+  background-color: rgba(18, 46, 70, 0.03);
+  border: solid 1px rgba(18, 46, 70, 0.1);
+  width: 240px;
+}
+
+.all-people-wrapper {
+  margin-top: 40px;
+}
+
+.people-card {
+  width: 300px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(236, 239, 241);
+}
+
+.people-card:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.people-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.people-name {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+  color: rgb(18, 46, 70);
+}
+
+.people-handle {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(18, 46, 70, 0.45);
+}
+
+.people-bio-or-headline {
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: 500;
+  text-align: left;
+  min-height: 36px;
+  max-height: 36px;
+  overflow: hidden;
+  color: rgba(18, 46, 70, 0.7);
+}
+
+.btn-follow-new {
+  height: 30px;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(48, 136, 244, 0.3);
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(48, 136, 244);
+}
+
+.btn-follow-new:hover, .btn-follow-new:active, .btn-follow-new:focus {
+  color: #fff;
+  background-color: #3088f4;
+}
+
+.btn-following-new {
+  height: 30px;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #3088f4;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-unfollow-new:hover {
+  height: 30px;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #ff5252;
+  /* background-color : #122e46; */
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.margin-rb {
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.margin-lb {
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.margin-sb {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.material-icons.follow {
+  font-size: 11px;
+}
+
+.unfollow-text {
+  margin-left: 5px;
+}
+
+.form-control.people-search {
+  border-radius: 3px;
+  background-color: rgba(18, 46, 70, 0.03);
+  border: solid 1px rgba(18, 46, 70, 0.1);
+  width: 240px;
+}
+
+.form-control.people-search:active, .form-control.people-search:focus {
+  border-radius: 3px;
+  background-color: rgba(18, 46, 70, 0.03);
+  border: solid 1px rgba(18, 46, 70, 0.1);
+  width: 240px;
+}
+
+.people-link.active {
+  font-weight: 700;
+  padding-bottom: 14px;
+  border-bottom: 2px solid rgb(48, 136, 244);
+  color: rgb(18, 46, 70);
+}
+@media (max-width: 750px) {
+  .small-container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .people-tabs-wrapper{
+    display: block;
+  }
+  .people-tab-links{
+    text-align: center;
+  }
+  .people-tab-container{
+    height: auto;
+  }
+  .people-tab-search{
+    width: 100%;
+  }
+  .form-control.people-search{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .people-card{
+    width: 100%;
+  }
+  .margin-rb {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .margin-lb {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .margin-sb {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .people-link{
+    display: block;
+  }
+  .people-tab-links .middle-link{
+    margin-left: 0px;
+  }
+  .people-tab-links .active{
+    padding: 0px;
+    border: none;
+  }
+}

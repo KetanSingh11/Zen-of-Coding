@@ -1,0 +1,1 @@
+"use strict";angular.module("config",[]).constant("ENV",{name:"production",apiEndpoint:"https://skillenza.com/api/v1",socketEndpoint:"https://skillenza.com/",hostUrl:"https://skillenza.com/",s3Bucket:"https://d2785ds9rd1e5d.cloudfront.net/"});

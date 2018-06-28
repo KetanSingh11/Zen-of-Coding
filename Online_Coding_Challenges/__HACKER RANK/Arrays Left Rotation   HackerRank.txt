@@ -1,0 +1,500 @@
+
+        
+         
+          
+          
+          
+         
+        
+      
+
+
+    Something went wrong!
+
+Some error occured while loading page for you. Please try again.
+
+Reload <#>
+//Loading...
+
+  * <https://www.hackerrank.com/dashboard>
+  * Practice <https://www.hackerrank.com/dashboard>
+  * Compete <https://www.hackerrank.com/contests>
+  * Jobs// <https://www.hackerrank.com/jobs>
+  * Leaderboard <https://www.hackerrank.com/leaderboard>
+
+  *
+    /
+
+    /
+
+  *
+    /
+
+    /
+    *Messages*
+
+      o
+
+        profeucalyptus
+        5 days ago//
+
+        Hi Ketan, I'm reaching out to you on behalf of the world's
+        premier cod...
+    Show All <https://www.hackerrank.com/inbox>
+
+  *
+    /
+
+    /
+    *Notifications*
+    //Archive All
+
+      o
+        Can you solve this puzzle in 5 minutes?
+        4 months ago
+
+      o
+        Introducing the 2018 Developer Skills Report
+        5 months ago
+
+      o
+        Welcome to Cracking the Coding Interview
+        6 months ago
+
+      o
+        OLX presents Code and the Curious
+        11 months ago
+
+      o
+        *bahalekiitu* commented in your discussion on Weather
+        Observation Station 12
+        <https://www.hackerrank.com/challenges/ctci-array-left-rotation/challenges/weather-observation-station-12/forum/comments/265045>
+        1 year ago
+
+      o
+        *sada_varti* commented in your discussion on Weather Observation
+        Station 12
+        <https://www.hackerrank.com/challenges/ctci-array-left-rotation/challenges/weather-observation-station-12/forum/comments/248178>
+        1 year ago
+
+      o
+        New challenges added to Data Structures // Arrays
+        1 year ago
+
+      o
+        New challenges added to Algorithms // Implementation
+        2 years ago
+
+      o
+        New challenges added to Python // Python Functionals
+        2 years ago
+
+      o
+        New challenges added to Data Structures // Advanced
+        2 years ago
+
+      o
+        New challenges added to Data Structures // Advanced
+        2 years ago
+
+      o
+        New challenges added to Data Structures // Trees
+        2 years ago
+
+      o
+        New challenges added to Java // Data Structure
+        2 years ago
+
+      o
+        New challenges added to Python // Introduction
+        2 years ago
+
+      o
+        New challenges added to Algorithms // Greedy
+        2 years ago
+
+      o
+        New challenges added to Data Structures // Trees
+        2 years ago
+
+      o
+        New challenges added to Algorithms // Greedy
+        2 years ago
+
+      o
+        New challenges added to Algorithms // Warmup
+        2 years ago
+
+      o
+        New challenges added to Java // Data Structure
+        2 years ago
+
+      o
+        New challenges added to SQL // Basic Select
+        2 years ago
+
+    Show All <https://www.hackerrank.com/notifications>
+
+  *
+    /
+
+    /ketansingh11
+    /
+
+    /
+      o Hackos: 9480 <https://www.hackerrank.com/ketansingh11/hackos>
+      o Profile
+        <https://www.hackerrank.com/ketansingh11>
+      o Settings <https://www.hackerrank.com/settings/profile>
+      o Bookmarks <https://www.hackerrank.com/challenges/bookmarks>
+      o Network <https://www.hackerrank.com/network>
+      o Submissions <https://www.hackerrank.com/submissions>
+      o Administration <https://www.hackerrank.com/administration>
+      o Logout
+
+ 1. Practice <https://www.hackerrank.com/dashboard>
+ 2. Tutorials <https://www.hackerrank.com/domains/tutorials>
+ 3. Cracking the Coding Interview
+    <https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview>
+ 4. Arrays: Left Rotation
+
+
+    Arrays: Left Rotation
+
+  /
+
+  /
+
+  * Problem
+    <https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem>
+  * Submissions
+    <https://www.hackerrank.com/challenges/ctci-array-left-rotation/submissions>
+  * Leaderboard
+    <https://www.hackerrank.com/challenges/ctci-array-left-rotation/leaderboard>
+  * Discussions
+    <https://www.hackerrank.com/challenges/ctci-array-left-rotation/forum>
+  * Editorial//
+    <https://www.hackerrank.com/challenges/ctci-array-left-rotation/editorial>
+
+Check out the resources on the page's right side to learn more about
+arrays. The video tutorial is by Gayle Laakmann McDowell, author of the
+best-selling interview book Cracking the Coding Interview
+<https://www.hackerrank.com/ctci-book?ref=body>.
+
+A /left rotation/ operation on an array shifts each of the array's
+elements unit to the left. For example, if left rotations are performed
+on array , then the array would become .
+
+Given an array of integers and a number, , perform left rotations on the
+array. Return the updated array to be printed as a single line of
+space-separated integers.
+
+*Function Description*
+
+Complete the function /rotLeft/ in the editor below. It should return
+the resulting array of integers.
+
+rotLeft has the following parameter(s):
+
+  * An array of integers .
+  * An integer , the number of rotations.
+
+*Input Format*
+
+The first line contains two space-separated integers and , the size of
+and the number of left rotations you must perform.
+The second line contains space-separated integers .
+
+*Constraints*
+
+  *
+  *
+  *
+
+*Output Format*
+
+Print a single line of space-separated integers denoting the final state
+of the array after performing left rotations.
+
+*Sample Input*
+
+|5 4
+1 2 3 4 5
+|
+
+*Sample Output*
+
+|5 1 2 3 4
+|
+
+*Explanation*
+
+When we perform left rotations, the array undergoes the following
+sequence of changes:
+
+//
+Fork
+/
+
+/
+
+past buffers are marked read only, you wont be able to edit your current
+buffer without forking it
+
+Fork    Create New Buffer
+Fork Limit Reached
+
+You can’t create more than 20 buffers, please delete one of your old
+bufferes to create a new buffer.
+
+OK  
+Delete
+
+Are you sure you want to delete **? This action can’t be undone.
+
+Yes  
+
+*Current Buffer* (saved locally, editable)   
+/
+
+/
+/
+
+/
+/
+
+/
+
+/
+
+/
+/
+
+/
+/
+
+/
+Editor Mode
+
+Emacs Normal Vim
+Editor Theme
+
+Light Dark
+Tab Spaces
+
+2 spaces 4 spaces 8 spaces
+Intellisense //
+
+Enable Disable
+Python 3
+**
+ <javascript:void(0)>
+
+Loading Editor...
+
+x
+
+ 
+1
+
+#!/bin/python3
+
+2
+
+​
+
+3
+
+import math
+
+4
+
+import os
+
+5
+
+import random
+
+6
+
+import re
+
+7
+
+import sys
+
+8
+
+​
+
+9
+
+# Complete the rotLeft function below.
+
+10
+
+def rotLeft(a, d):
+
+11
+
+    d = d % len(a)
+
+12
+
+    return a[d:] + a[:d]
+
+13
+
+    
+
+14
+
+​
+
+15
+
+if __name__ == '__main__':
+
+16
+
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+17
+
+​
+
+18
+
+    nd = input().split()
+
+19
+
+​
+
+20
+
+    n = int(nd[0])
+
+21
+
+​
+
+22
+
+    d = int(nd[1])
+
+23
+
+​
+
+24
+
+    a = list(map(int, input().rstrip().split()))
+
+25
+
+​
+
+26
+
+    result = rotLeft(a, d)
+
+27
+
+​
+
+28
+
+    fptr.write(' '.join(map(str, result)))
+
+29
+
+    fptr.write('\n')
+
+30
+
+​
+
+31
+
+    fptr.close()
+
+32
+
+​
+
+Line: 7 Col: 11
+Run Code Submit Code
+//Upload Code as File
+Test against custom input
+
+Author
+Heraldo
+
+<https://www.hackerrank.com/profile/Heraldo>
+
+Difficulty
+
+Easy
+
+Max Score
+
+20
+
+Submitted By
+153164
+
+<https://www.hackerrank.com/challenges/ctci-array-left-rotation/leaderboard>
+
+
+    Need Help?
+
+------------------------------------------------------------------------
+//View discussions
+<https://www.hackerrank.com/challenges/ctci-array-left-rotation/forum>
+//View editorial
+<https://www.hackerrank.com/challenges/ctci-array-left-rotation/editorial>
+//View top submissions
+<https://www.hackerrank.com/challenges/ctci-array-left-rotation/leaderboard>
+RESOURCES
+------------------------------------------------------------------------
+
+  *
+    YouTube connection issue.
+    10:08
+    /
+
+    /
+  *
+    /
+
+    /Arrays <https://www.hackerrank.com/topics/arrays>
+  *
+    /
+
+    /ArrayLists <https://www.hackerrank.com/topics/arraylist>
+
+RATE THIS CHALLENGE
+
+//////////
+MORE DETAILS
+------------------------------------------------------------------------
+//Download problem statement
+<https://www.hackerrank.com/rest/contests/master/challenges/ctci-array-left-rotation/download_pdf?language=English>
+//Download sample test cases
+<https://www.hackerrank.com/rest/contests/master/challenges/ctci-array-left-rotation/download_testcases>
+//Suggest Edits
+//////
+
+  * Contest Calendar <https://www.hackerrank.com/calendar>
+  * Blog <https://blog.hackerrank.com/>
+  * Scoring <https://www.hackerrank.com/scoring>
+  * Environment <https://www.hackerrank.com/environment>
+  * FAQ <https://www.hackerrank.com/faq>
+  * About Us <https://www.hackerrank.com/aboutus>
+  * Support <https://help.hackerrank.com/hc/en-us>
+  * Careers <https://www.hackerrank.com/careers>
+  * Terms Of Service <https://www.hackerrank.com/terms-of-service>
+  * Privacy Policy <https://www.hackerrank.com/privacy>
+  * Request a Feature <https://www.hackerrank.com/support/feature>
+
